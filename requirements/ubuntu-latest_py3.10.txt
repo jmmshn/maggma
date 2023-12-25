@@ -16,13 +16,13 @@ attrs==23.1.0
     # via
     #   jsonschema
     #   referencing
-bcrypt==4.1.1
+bcrypt==4.1.2
     # via paramiko
 blinker==1.7.0
     # via flask
-boto3==1.33.11
+boto3==1.34.7
     # via maggma (setup.py)
-botocore==1.33.11
+botocore==1.34.7
     # via
     #   boto3
     #   s3transfer
@@ -47,7 +47,7 @@ dnspython==2.4.2
     #   pymongo
 exceptiongroup==1.2.0
     # via anyio
-fastapi==0.104.1
+fastapi==0.105.0
     # via maggma (setup.py)
 flask==3.0.0
     # via mongogrant
@@ -87,16 +87,16 @@ orjson==3.9.10
     # via maggma (setup.py)
 packaging==23.2
     # via mongomock
-paramiko==3.3.1
+paramiko==3.4.0
     # via sshtunnel
 pycparser==2.21
     # via cffi
-pydantic==2.5.2
+pydantic==2.5.3
     # via
     #   fastapi
     #   maggma (setup.py)
     #   pydantic-settings
-pydantic-core==2.14.5
+pydantic-core==2.14.6
     # via pydantic
 pydantic-settings==2.1.0
     # via maggma (setup.py)
@@ -122,7 +122,7 @@ referencing==0.32.0
     #   jsonschema-specifications
 requests==2.31.0
     # via mongogrant
-rpds-py==0.13.2
+rpds-py==0.15.2
     # via
     #   jsonschema
     #   referencing
@@ -130,7 +130,7 @@ ruamel-yaml==0.17.40
     # via maggma (setup.py)
 ruamel-yaml-clib==0.2.8
     # via ruamel-yaml
-s3transfer==0.8.2
+s3transfer==0.10.0
     # via boto3
 sentinels==1.0.0
     # via mongomock
@@ -155,7 +155,7 @@ urllib3==2.0.7
     # via
     #   botocore
     #   requests
-uvicorn==0.24.0.post1
+uvicorn==0.25.0
     # via maggma (setup.py)
 werkzeug==3.0.1
     # via flask
